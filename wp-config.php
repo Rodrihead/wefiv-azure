@@ -112,6 +112,9 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+define( 'WP_POST_REVISIONS', 3 );
+define( 'WP_AUTO_UPDATE_CORE', false );
+
 /* Add any custom values between this line and the "stop editing" line. */
 
 if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') $_SERVER['HTTPS']='on';
